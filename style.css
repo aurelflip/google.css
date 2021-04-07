@@ -1,0 +1,49 @@
+p
+{
+   
+   width: 450px;
+   text-align: justify;
+   padding: 12px;
+   margin: auto; 
+}
+
+
+#conteneur
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: flex-end;
+    
+}
+
+#middle-end
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    
+}
+#right-end
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    
+}
+#left-end
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: flex-end;
+    
+}
+#end
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+}
+
+p:hover
+{text-decoration: underline;
+}
